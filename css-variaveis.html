@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css variaveis com JS</title>
+    <link rel="stylesheet" href="css-variaveis.css">
+</head>
+<body>
+    <header>
+        <h1>Update CSS variáveis <br>com <span class="hl">JS</span></br></h1>
+    </header>
+
+
+    <section class="interface-main">
+
+        <p>Espaçamento: <input type="range" name="espaco" min="10" max="35" value="10" data-sizing="px" class="renge" id="renge1" onmousemove="espMouse()"></p>
+
+        <p>Blur: <input type="range" name="blur" min="0" max="15" value="0" data-sizing="px" class="renge" id="renge2" onmousemove="blurMouse()"></p>
+
+        <p>Cor: <input type="color" value="#fff06a" id="inpCor" ></p>
+
+    </section>
+
+
+    <section class="campo-de-eventos">
+        <div class="evento-coloracao">
+            <img src="interstellar.jpg" alt="Imagem-interstellar"id="imagem">
+        </div>
+    </section>
+
+    <script src="css-variaveis.js"></script>
+</body>
+</html>

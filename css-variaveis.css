@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap');
+/*
+font-family: 'Roboto Condensed', sans-serif; 
+font-family: 'Noto Sans', sans-serif;
+*/
+body{
+    background-color: rgb(30, 30, 30);
+    font-size: 30px;
+    max-width: 1920px;
+    max-height: 1024px;
+}
+
+
+/*Variavel em CSS*/
+:root{
+    --cor-fundo: rgb(255, 240, 106);
+    --padding-img: 10px;
+    --blur-img: 0px;
+}
+
+.hl{
+    color: var(--cor-fundo);
+}
+
+header{
+    font-size: 40px;
+    font-family: 'Roboto Condensed', sans-serif; 
+    color: white;
+    text-align: center;
+    margin-bottom: -40px;
+}
+
+p{
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.interface-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 35px;
+}
+
+.campo-de-eventos{
+    max-width: 700px;
+    max-height: 700px;
+    position: absolute;
+    left: 545px;
+}
+
+.evento-coloracao{
+    background-color: var(--cor-fundo);
+    width: 780px;
+    height: 450px;
+    padding: var(--padding-img);
+}
+
+#imagem{
+    width: 780px;
+    height: 450px;
+    filter: blur(var(--blur-img));
+}
+
+/*Muda a cor e a estilização do input:renge*/
+
+.renge{
+    -webkit-appearance: none;
+    width: 150px;
+    height: 3px;
+    background-color: #ffffff;
+}
+  
+.renge::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 15px;
+    width: 15px;
+    background-color: var(--cor-fundo);
+    border-radius: 50%;
+    cursor: pointer;
+}
