@@ -12,4 +12,7 @@ Também aprendi que cada monitor, celular, tablet... Cada um tem o seu tamanho, 
 
 
   #
+  
 <h3>Aqui esta um preview do site</h3>
+
+![2023-03-31 18-31-09](https://user-images.githubusercontent.com/109975953/229237312-27958990-c311-459b-80c0-b69ed6d31838.gif)
